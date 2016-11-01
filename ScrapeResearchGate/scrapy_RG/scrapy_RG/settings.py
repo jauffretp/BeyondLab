@@ -29,8 +29,21 @@ ROBOTSTXT_OBEY = True
 # See also autothrottle settings and docs
 #DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
-#CONCURRENT_REQUESTS_PER_DOMAIN = 16
+CONCURRENT_REQUESTS_PER_DOMAIN = 1
 #CONCURRENT_REQUESTS_PER_IP = 16
+RETRY_TIMES = 0
+
+# SCRAPOXY
+PROXY = 'http://127.0.0.1:8888/?noconnect'
+API_SCRAPOXY = 'http://127.0.0.1:8889/api'
+API_SCRAPOXY_PASSWORD = 'bubuIchangeZhePassword'
+
+DOWNLOADER_MIDDLEWARES = {
+    'scrapoxy.downloadmiddlewares.proxy.ProxyMiddleware': 100,
+    'scrapoxy.downloadmiddlewares.wait.WaitMiddleware': 101,
+    'scrapoxy.downloadmiddlewares.scale.ScaleMiddleware': 102,
+    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
+}
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
