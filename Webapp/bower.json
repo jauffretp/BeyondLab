@@ -24,6 +24,11 @@
         "dist/css/bootstrap.css",
         "dist/js/bootstrap.js"
       ]
+    },
+    "elasticsearch":{
+      "main":[
+        "elasticsearch.angular.js"
+      ]
     }
   }
 }
