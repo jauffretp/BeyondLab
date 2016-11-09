@@ -43,6 +43,8 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapoxy.downloadmiddlewares.wait.WaitMiddleware': 101,
     'scrapoxy.downloadmiddlewares.scale.ScaleMiddleware': 102,
     'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
+#    'myscraper.middlewares.BlacklistDownloaderMiddleware': 950,
+    'scrapy_RG.middlewares.BlacklistDownloaderMiddleware': 950,
 }
 
 # Disable cookies (enabled by default)
