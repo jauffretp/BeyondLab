@@ -20,7 +20,28 @@
 <br \>
 <div class="row">
 
-	 <ul class="list-group">
+
+
+	<div class="col-xs-12" ng-repeat="researcher in search.searchResults">
+
+		<h4> <a href="{{researcher._source.link}}" target="_blank">{{researcher._source.name}}</a> </h4>
+
+		<div ng-repeat="tag in researcher._source.tags" class="badge">
+			{{tag}}
+		</div>
+		<hr/>
+	</div>
+
+
+	
+
+
+</div>
+
+
+
+<!--  <div>
+ 	 <ul class="list-group">
 		  <li class="list-group-item" ng-repeat="researcher in search.searchResults">
 
 		  	{{researcher._source.name}} : 
@@ -28,9 +49,4 @@
 
 		  </li>
 	</ul>
-</div>
-
-
-
-    
-
+ </div> -->
