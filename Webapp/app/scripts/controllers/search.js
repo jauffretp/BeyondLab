@@ -35,9 +35,20 @@ angular.module('webappApp')
 		  q: query
 		}).then(function (body) {
 		  _this.searchResults = body.hits.hits;
+
+		  if(_this.searchResults.length >0){
+		  	    _this.noResults = false;
+		  }
+		  else{
+		  	    _this.noResults = true;
+		  }
+
+		  
 		}, function (error) {
 		  console.trace(error.message);
 		});
     }
+
+    _this.noResults = false;
 
   });
