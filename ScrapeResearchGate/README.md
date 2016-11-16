@@ -12,7 +12,7 @@ https://doc.scrapy.org/en/latest/intro/install.html#intro-install
 In the Terminal, go to the Scrapy project’s top level directory (`https://github.com/jauffretp/BeyondLab/tree/master/ScrapeResearchGate/scrapy_RG`) and run
 
 ```
-scrapy crawl researchGate -o members_instit_loc_exp.json
+scrapy crawl researchGate -o members_url_instit_loc_exp.json
 ```
 
 Here, "researchGate" is the name of the class `scrapy.Spider` in the `rg_scrapy.py` file in the `spiders` subfolder 
@@ -29,6 +29,9 @@ scrapy startproject ProjectName
 However, in order to run the code here you also need Scrapoxy (`http://scrapoxy.io`) and an Amazon AWS account.
 
 ## Sample output
+
+The file `https://github.com/jauffretp/BeyondLab/blob/master/ScrapeResearchGate/
+scrapy_RG/members_url_instit_loc_exp.json` contains some crawled records with also the url of each member (crawling restricted to French institutions only). 
 
 The file `https://github.com/jauffretp/BeyondLab/blob/master/ScrapeResearchGate/scrapy_RG/members_instit_loc_exp.json.try3` contains 1350 crawled records` (after one night of crawling).
 
