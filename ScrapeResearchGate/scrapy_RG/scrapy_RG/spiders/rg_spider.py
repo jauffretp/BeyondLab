@@ -29,7 +29,7 @@ class QuotesSpider(scrapy.Spider):
     name = "researchGate"
 
     custom_settings = {
-        'DOWNLOAD_DELAY': 6.0,
+        'DOWNLOAD_DELAY': 10.0,
         'RANDOMIZE_DOWNLOAD_DELAY': True,
         'AUTOTHROTTLE_ENABLED': True,
         'AUTOTHROTTLE_START_DELAY': 5.0,
@@ -42,11 +42,13 @@ class QuotesSpider(scrapy.Spider):
         urls_file = open('../urls_institutions.txt','r')
         urls = urls_file.readlines() 
         for url in urls:
-            url = url.strip() 
+            url = url.strip() + '/members' 
             print "URL: " + url
-            request = scrapy.Request(url=url, callback=self.parse_institution)
+            request = scrapy.Request(url=url, callback=self.parse_institution_members)
             yield request
 
+
+### at present parse_institution is not used, the crawler directly crawls the members page of the institution
     def parse_institution(self, response):
         institution = response.xpath('//span[@itemprop="name"]/text()').extract_first()
         location = response.xpath('//div[@itemprop="location"]/text()').extract_first()
@@ -57,24 +59,32 @@ class QuotesSpider(scrapy.Spider):
         request = scrapy.Request(url=response.urljoin('/members'), callback=self.parse_institution_members)
         request.meta['institution'] = institution
         request.meta['location'] = location
+        print "url to parse: " + response.urljoin('/members')
         yield request
+##############################################
 
     def parse_institution_members(self, response):
+        institution = response.xpath('//span[@itemprop="name"]/text()').extract_first()
+        location = response.xpath('//div[@itemprop="location"]/text()').extract_first()
         print "parse institution members"
-        print "instit: " + response.meta['institution']
-        for member_url in response.xpath('//h5[@class="ga-top-coauthor-name"]/a/@href').extract():
-            complete_url = 'https://www.researchgate.net/' + member_url
-            request = scrapy.Request(complete_url, callback=self.parse_member)
-            request.meta['institution'] = response.meta['institution']
-            request.meta['member'] = response.xpath('//h5[@class="ga-top-coauthor-name"]/a[@href="' + member_url +'"]/text()').extract_first()
-            request.meta['location'] = response.meta['location']
-            yield request
-        next_page = response.xpath('//a5[@class=" navi-next pager-link ajax-page-load"]/@href').extract_first()
-        if next_page is not None:
-            request = scrapy.Request(response.urljoin(next_page), callback=self.parse_institution_members)
-            request.meta['institution'] = response.meta['institution']
-            request.meta['location'] = response.meta['location']
-            yield request
+        print "instit: " + institution
+        print "location: " + location
+        match = re.match(r'^(.*), *France\s*$', location) # add this if you want to restrict to French institutions only
+        if match :
+          print 'French institution'
+          for member_url in response.xpath('//h5[@class="ga-top-coauthor-name"]/a/@href').extract():
+              complete_url = 'https://www.researchgate.net/' + member_url
+              request = scrapy.Request(complete_url, callback=self.parse_member)
+              request.meta['institution'] = institution
+              request.meta['member'] = response.xpath('//h5[@class="ga-top-coauthor-name"]/a[@href="' + member_url +'"]/text()').extract_first()
+              request.meta['location'] = location
+              yield request
+          next_page = response.xpath('//a5[@class=" navi-next pager-link ajax-page-load"]/@href').extract_first()
+          if next_page is not None:
+              request = scrapy.Request(response.urljoin(next_page), callback=self.parse_institution_members)
+              request.meta['institution'] = institution
+              request.meta['location'] = location
+              yield request
         
     def parse_member(self, response):
         print "we are in parse_member"
@@ -82,6 +92,7 @@ class QuotesSpider(scrapy.Spider):
         yield {
             'institution' : response.meta['institution'],
             'member' : response.meta['member'],
+            'member_url' : response.url,
             'location' : response.meta['location'],
             'expertise' : expertise,
         }
