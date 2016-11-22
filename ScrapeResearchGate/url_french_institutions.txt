@@ -1,0 +1,58 @@
+https://www.researchgate.net/institution/French_National_Centre_for_Scientific_Research : French National Centre for Scientific Research
+https://www.researchgate.net/institution/French_National_Institute_for_Agricultural_Research : French National Institute for Agricultural Researc...
+https://www.researchgate.net/institution/French_Institute_of_Health_and_Medical_Research : French Institute of Health and Medical Research
+https://www.researchgate.net/institution/Atomic_Energy_and_Alternative_Energies_Commission : Atomic Energy and Alternative Energies Commission
+https://www.researchgate.net/institution/Pierre_and_Marie_Curie_University-Paris_6 : Pierre and Marie Curie University - Paris 6
+https://www.researchgate.net/institution/Aix-Marseille_Universite : Aix-Marseille Université
+https://www.researchgate.net/institution/Universite_Paris-Sud_112 : Université Paris-Sud 11
+https://www.researchgate.net/institution/Universite_de_Montpellier : Université de Montpellier
+https://www.researchgate.net/institution/Claude_Bernard_University_Lyon_1 : Claude Bernard University Lyon 1
+https://www.researchgate.net/institution/University_of_Lorraine : University of Lorraine
+https://www.researchgate.net/institution/Paul_Sabatier_University-Toulouse_III : Paul Sabatier University - Toulouse III
+https://www.researchgate.net/institution/Universite_Rene_Descartes-Paris_52 : Université René Descartes - Paris 5
+https://www.researchgate.net/institution/Institut_Pasteur_International_Network : Institut Pasteur International Network
+https://www.researchgate.net/institution/Universite_de_Rennes_1 : Université de Rennes 1
+https://www.researchgate.net/institution/Paris_Diderot_University : Paris Diderot University
+https://www.researchgate.net/institution/Assistance_Publique_Hopitaux_de_Paris : Assistance Publique – Hôpitaux de Paris
+https://www.researchgate.net/institution/University_of_Nice_Sophia_Antipolis : University of Nice Sophia Antipolis
+https://www.researchgate.net/institution/Universite_des_Sciences_et_Technologies_de_Lille_1 : Université des Sciences et Technologies de Lille 1
+https://www.researchgate.net/institution/Institute_of_Research_for_Development : Institute of Research for Development
+https://www.researchgate.net/institution/University_of_Nantes : University of Nantes
+https://www.researchgate.net/institution/University_of_Bordeaux : University of Bordeaux
+https://www.researchgate.net/institution/University_Joseph_Fourier-Grenoble_1 : University Joseph Fourier - Grenoble 1
+https://www.researchgate.net/institution/Universite_de_Bourgogne : University of Burgundy
+https://www.researchgate.net/institution/University_of_Tours : University of Tours
+https://www.researchgate.net/institution/Consultative_Group_on_International_Agricultural_Research : Consultative Group on International Agricultural R...
+https://www.researchgate.net/institution/Institut_Curie : Institut Curie
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Lyon : Centre Hospitalier Universitaire de Lyon
+https://www.researchgate.net/institution/Institut_Pasteur2 : Institut Pasteur
+https://www.researchgate.net/institution/Cirad-La_recherche_agronomique_pour_le_developpement : Cirad - La recherche agronomique pour le développe...
+https://www.researchgate.net/institution/Universite_de_Poitiers : Université de Poitiers
+https://www.researchgate.net/institution/Universite_de_Rouen : Université de Rouen
+https://www.researchgate.net/institution/Museum_National_dHistoire_Naturelle : Muséum National d'Histoire Naturelle
+https://www.researchgate.net/institution/Universite_Blaise_Pascal-Clermont-Ferrand_II : Université Blaise Pascal - Clermont-Ferrand II
+https://www.researchgate.net/institution/National_Institute_for_Research_in_Computer_Science_and_Control : National Institute for Research in Computer Scienc...
+https://www.researchgate.net/institution/Assistance_Publique_Hopitaux_de_Marseille : Assistance Publique Hôpitaux de Marseille
+https://www.researchgate.net/institution/Universite_de_Bretagne_Occidentale : Université de Bretagne Occidentale
+https://www.researchgate.net/institution/MINES_ParisTech : MINES ParisTech
+https://www.researchgate.net/institution/Universite_de_Caen_Normandie : Université de Caen Normandie
+https://www.researchgate.net/institution/Ecole_Normale_Superieure_de_Paris : Ecole Normale Supérieure de Paris
+https://www.researchgate.net/institution/Universite_de_Reims_Champagne-Ardenne : Université de Reims Champagne-Ardenne
+https://www.researchgate.net/institution/Centre_Hospitalier_Regional_Universitaire_de_Lille : Centre Hospitalier Régional Universitaire de Lille
+https://www.researchgate.net/institution/Institut_National_des_Sciences_Appliquees_de_Lyon : Institut National des Sciences Appliquées de Lyon
+https://www.researchgate.net/institution/Institut_Francais_de_Recherche_pour_lExploitation_de_la_Mer : Institut Français de Recherche pour l'Exploitation...
+https://www.researchgate.net/institution/European_Space_Agency : European Space Agency
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Nantes : Centre Hospitalier Universitaire de Nantes
+https://www.researchgate.net/institution/Universite_de_Picardie_Jules_Verne : Université de Picardie Jules Verne
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Montpellier : Centre Hospitalier Universitaire de Montpellier
+https://www.researchgate.net/institution/Universite_Bordeaux_1 : Université Bordeaux 1
+https://www.researchgate.net/institution/Institut_de_Cancerologie_Gustave_Roussy : Institut de Cancérologie Gustave Roussy
+https://www.researchgate.net/institution/Ecole_normale_superieure_de_Lyon : Ecole normale supérieure de Lyon
+https://www.researchgate.net/institution/University_of_Limoges : University of Limoges
+https://www.researchgate.net/institution/Universite_Victor_Segalen_Bordeaux_22 : Université Victor Segalen Bordeaux 2
+https://www.researchgate.net/institution/Ecole_Polytechnique : École Polytechnique
+https://www.researchgate.net/institution/Universite_de_Versailles_Saint-Quentin : Université de Versailles Saint-Quentin
+https://www.researchgate.net/institution/CHRU_de_Strasbourg : CHRU de Strasbourg
+https://www.researchgate.net/institution/Universite_Paris_13_Nord : Université Paris 13 Nord
+https://www.researchgate.net/institution/Universite_Paris-Est_Creteil_Val_de_Marne-Universite_Paris_12 : Université Paris-Est Créteil Val de Marne - Univer...
+https://www.researchgate.net/institution/The_French_Aeropace_Lab_ONERA : The French Aeropace Lab ONERA
