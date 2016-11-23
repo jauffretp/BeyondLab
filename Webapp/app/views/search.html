@@ -3,9 +3,9 @@
 
 
 	<div class="input-group">
-      <input type="text" ng-model="search.query" class="form-control" placeholder="Search for...">
+      <input type="text" ng-model="search.query" class="form-control" placeholder="World class expert in neurobiology ...">
       <span class="input-group-btn">
-        <button ng-click="search.search(search.query)"  class="btn btn-primary" type="button">Go!</button>
+        <button ng-click="search.search(search.query)"  class="btn btn-primary" type="button">Search</button>
       </span>
     </div>
 
@@ -26,9 +26,13 @@
 
 		<h4> <a href="{{researcher._source.link}}" target="_blank">{{researcher._source.name}}</a> </h4>
 
-		<div ng-repeat="tag in researcher._source.tags" class="badge">
-			{{tag}}
-		</div>
+
+		<h4> 
+			<div ng-repeat="tag in researcher._source.tags track by $index" class="badge badge-primary">
+				{{tag}}
+			</div>
+        </h4>
+		
 		<hr/>
 	</div>
 
