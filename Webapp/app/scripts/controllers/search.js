@@ -30,13 +30,25 @@ angular.module('webappApp')
 	   //  }
     // ]
 
+    _this.numberOfResults = -1
+    _this.resultsPerQuery = 10
+    _this.offset = 0
+
+
     _this.search = function(query){
+
+    	_this.offset = _this.resultsPerQuery
+
+
     	ElasticSearch.search({
-		  q: query
+		  q: _this.query,
+		  from:_this.offset,
+		  size:_this.resultsPerQuery
 		}).then(function (body) {
 		  _this.searchResults = body.hits.hits;
+		  _this.numberOfResults = body.hits.total
 
-		  if(_this.searchResults.length >0){
+		  if(_this.numberOfResults >0){
 		  	    _this.noResults = false;
 		  }
 		  else{
@@ -50,5 +62,30 @@ angular.module('webappApp')
     }
 
     _this.noResults = false;
+
+    _this.moreResults = function(query){
+
+    	_this.offset = _this.offset + _this.resultsPerQuery
+
+    	if(this.offset <= _this.numberOfResults){
+
+			ElasticSearch.search({
+			  q: query,
+			  from:_this.offset,
+			  size:_this.resultsPerQuery
+			}).then(function (body) {
+			  _this.searchResults = _this.searchResults.concat(body.hits.hits);
+			}, function (error) {
+			  console.trace(error.message);
+			});
+
+    	}
+    	
+
+    }
+
+    _this.showMoreBoolean = function(){
+    	return _this.offset <= _this.numberOfResults
+    };
 
   });
