@@ -58,29 +58,21 @@ for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
 pprint.pprint(data_research)
 
 
-from elasticsearch_dsl import DocType, String
 from elasticsearch_dsl.connections import connections
 
 # Define a default Elasticsearch client
 connections.create_connection(hosts=['localhost'])
 
-class Researcher(DocType):
-    name = String(analyzer='snowball', fields={'raw': String(index='not_analyzed')})
-    tags = String(analyzer='snowball', fields={'raw': String(index='not_analyzed')})
-    link = String(index='not_analyzed')
-
-
-    class Meta:
-        index = 'dataforgood'
-
+from researcher import Researcher
 
 Researcher.init()
 
 for name in data_research:
 	researcherObject = data_research[name]
-	name = researcherObject[nameKey]
+	name = researcherObject[nameKey].encode('utf-8')
 	tags = researcherObject[tagsKey]
-	link = researcherObject[linkKey]
+	tags = [tag.encode('utf-8') for tag in tags]
+	link = researcherObject[linkKey].encode('utf-8')
 
 	print name
 	print link
