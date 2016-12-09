@@ -39,7 +39,7 @@ class QuotesSpider(scrapy.Spider):
 
 
     def start_requests(self):
-        urls_file = open('../urls_french_institutions_partial.txt','r')
+        urls_file = open('../urls_french_institutions_partial_reversed.txt','r')
         urls = urls_file.readlines() 
         for url in urls:
             url = url.strip() + '/members' 

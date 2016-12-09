@@ -56,3 +56,136 @@ https://www.researchgate.net/institution/CHRU_de_Strasbourg : CHRU de Strasbourg
 https://www.researchgate.net/institution/Universite_Paris_13_Nord : Université Paris 13 Nord
 https://www.researchgate.net/institution/Universite_Paris-Est_Creteil_Val_de_Marne-Universite_Paris_12 : Université Paris-Est Créteil Val de Marne - Univer...
 https://www.researchgate.net/institution/The_French_Aeropace_Lab_ONERA : The French Aeropace Lab ONERA
+https://www.researchgate.net/institution/European_Synchrotron_Radiation_Facility : European Synchrotron Radiation Facility
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Nancy : Centre Hospitalier Universitaire de Nancy
+https://www.researchgate.net/institution/Universite_Grenoble_Alpes : Université Grenoble Alpes
+https://www.researchgate.net/institution/Institut_de_Radioprotection_et_de_Surete_Nucleaire_IRSN : Institut de Radioprotection et de Sûreté Nucléaire...
+https://www.researchgate.net/institution/Institut_Francais_des_Sciences_et_Technologies_des_Transports_de_lAmenagement_et_des_Reseaux : Institut Français des Sciences et Technologies des...
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Toulouse : Centre Hospitalier Universitaire de Toulouse
+https://www.researchgate.net/institution/Institut_de_Genetique_et_de_Biologie_Moleculaire_et_Cellulaire : Institut de Génétique et de Biologie Moléculaire e...
+https://www.researchgate.net/institution/Universite_de_Technologie_de_Compiegne : Université de Technologie de Compiègne
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_Rouen : Centre Hospitalier Universitaire Rouen
+https://www.researchgate.net/institution/Bureau_de_Recherches_Geologiques_et_Minieres : French Geological Survey
+https://www.researchgate.net/institution/Universite_de_Cergy-Pontoise : Université de Cergy-Pontoise
+https://www.researchgate.net/institution/Ecole_normale_superieure_de_Cachan : Ecole normale supérieure de Cachan
+https://www.researchgate.net/institution/Conservatoire_National_des_Arts_et_Metiers : Conservatoire National des Arts et Métiers
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_dAmiens : Centre Hospitalier Universitaire d'Amiens
+https://www.researchgate.net/institution/Hopital_Europeen_Georges-Pompidou_Hopitaux_Universitaires_Paris-Ouest : Hôpital Européen Georges-Pompidou (Hôpitaux Univer...
+https://www.researchgate.net/institution/Institut_de_Physique_du_Globe_de_Paris : Institut de Physique du Globe de Paris
+https://www.researchgate.net/institution/University_of_Grenoble : University of Grenoble
+https://www.researchgate.net/institution/Alcatel_Lucent : Alcatel Lucent
+https://www.researchgate.net/institution/University_of_Valenciennes_and_Hainaut-Cambresis : University of Valenciennes and Hainaut-Cambresis
+https://www.researchgate.net/institution/Universite_de_Perpignan : Université de Perpignan
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Dijon : Centre Hospitalier Universitaire de Dijon
+https://www.researchgate.net/institution/Ecole_Nationale_Superieure_dArts_et_Metiers : Ecole Nationale Supérieure d'Arts et Métiers
+https://www.researchgate.net/institution/Universite_du_Littoral_Cote_dOpale_ULCO : Université du Littoral Côte d'Opale (ULCO)
+https://www.researchgate.net/institution/CNRS_Orleans_Campus : CNRS Orleans Campus
+https://www.researchgate.net/institution/Hopital_Universitaire_Necker : Hôpital Universitaire Necker
+https://www.researchgate.net/institution/Universite_de_Toulon : Université de Toulon
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Brest : Centre Hospitalier Universitaire de Brest
+https://www.researchgate.net/institution/University_of_Toulouse : University of Toulouse
+https://www.researchgate.net/institution/University_of_Lyon : University of Lyon
+https://www.researchgate.net/institution/Ecole_Centrale_Paris : Ecole Centrale Paris
+https://www.researchgate.net/institution/AgroParisTech : AgroParisTech
+https://www.researchgate.net/institution/Centre_Hospitalier_Universitaire_de_Saint-Etienne : Centre Hospitalier Universitaire de Saint-Étienne
+https://www.researchgate.net/institution/Hopital_Bicetre_Hopitaux_Universitaires_Paris-Sud : Hôpital Bicêtre (Hôpitaux Universitaires Paris-Sud...
+https://www.researchgate.net/institution/TOTAL : TOTAL
+https://www.researchgate.net/institution/Ecole_Nationale_Superieure_des_Mines_de_St-Etienne : École Nationale Supérieure des Mines de Saint-Étie...
+https://www.researchgate.net/institution/Hopital_Cochin_Hopitaux_Universitaires_Paris_Centre : Hôpital Cochin (Hôpitaux Universitaires Paris Cent...
+https://www.researchgate.net/institution/Cancer_Research_Center_of_Lyon : Cancer Research Center of Lyon
+https://www.researchgate.net/institution/Hopital_Saint-Louis_Hopitaux_Universitaires_Saint-Louis_Laboisiere_Fernand-Widal : Hôpital Saint-Louis (Hôpitaux Universitaires Saint...
+https://www.researchgate.net/institution/Universite_de_Bretagne_Sud : Université de Bretagne Sud
+https://www.researchgate.net/institution/Universite_dEvry-Val-dEssonne : Université d'Évry-Val-d'Essonne
+https://www.researchgate.net/institution/Paris_Dauphine_University : Paris Dauphine University
+https://www.researchgate.net/institution/Universite_d_Avignon_et_des_Pays_du_Vaucluse : Université d´Avignon et des Pays du Vaucluse
+https://www.researchgate.net/institution/Unicancer : Unicancer
+https://www.researchgate.net/institution/Ecole_Centrale_de_Nantes : Ecole Centrale de Nantes
+https://www.researchgate.net/institution/National_Institute_of_Applied_Science : National Institute of Applied Science
+https://www.researchgate.net/institution/Euromed_Management : Kedge Business School
+https://www.researchgate.net/institution/Centre_de_Recherche_Paul_Pascal : Centre de Recherche Paul Pascal
+https://www.researchgate.net/institution/CEVA : CEVA
+https://www.researchgate.net/institution/National_Graduate_School_of_Engineering_Chemistry_of_Lille_ENSCL : National Graduate School of Engineering Chemistry...
+https://www.researchgate.net/institution/GIPSA-lab : GIPSA-lab
+https://www.researchgate.net/institution/Ecole_Superieure_dIngenieur_en_Electronique_et_Electrotechnique-Paris2 : Ecole Supérieure d'Ingénieur en Electronique et El...
+https://www.researchgate.net/institution/Institut_de_Chimie_et_des_Materiaux_de_Paris_Est : Institut de Chimie et des Matériaux de Paris Est
+https://www.researchgate.net/institution/Ecole_deconomie_de_Paris : Ecole d'économie de Paris
+https://www.researchgate.net/institution/Institute_of_Myology : Institute of Myology
+https://www.researchgate.net/institution/Institut_de_la_Vision : Institut de la Vision
+https://www.researchgate.net/institution/Ecole_Nationale_Superieure_dElectrotechnique_dElectronique_dInformatique_dHydraulique_et_des_Telecommunications : Ecole Nationale Supérieure d’Electrotechnique, d’E...
+https://www.researchgate.net/institution/Ecole_Nationale_Superieure_dInformatique_et_de_Mathematiques : École Nationale Supérieure d'Informatique et de Ma...
+https://www.researchgate.net/institution/CPE_Lyon : CPE Lyon
+https://www.researchgate.net/institution/CINaM-Centre_Interdisciplinaire_de_Nanoscience_de_Marseille : CINaM - Centre Interdisciplinaire de Nanoscience d...
+https://www.researchgate.net/institution/Toulouse_School_of_Economics : Toulouse School of Economics
+https://www.researchgate.net/institution/Unite_Inserm_U1077 : Unité Inserm U1077
+https://www.researchgate.net/institution/Institut_Europeen_De_Chimie_Et_Biologie : Institut Européen De Chimie Et Biologie
+https://www.researchgate.net/institution/Toulouse_1_Capitole_University : Toulouse 1 Capitole University
+https://www.researchgate.net/institution/Institut_Imagine : Institut Imagine
+https://www.researchgate.net/institution/MAPI_Group : MAPI Group
+https://www.researchgate.net/institution/United_Nations_Educational_Scientific_and_Cultural_Organization : United Nations Educational, Scientific and Cultura...
+https://www.researchgate.net/institution/Institut_national_detudes_demographiques : Institut national d'études démographiques
+https://www.researchgate.net/institution/Ecole_Nationale_des_Travaux_Publics_de_lEtat : Ecole Nationale des Travaux Publics de l'Etat
+https://www.researchgate.net/institution/Centre_Hospitalier_Regional_dOrleans : Centre Hospitalier Régional d'Orléans
+https://www.researchgate.net/institution/IESEG_School_of_Management : IESEG School of Management
+https://www.researchgate.net/institution/Observatoire_Oceanologique_de_Villefranche_sur_Mer : Observatoire Océanologique de Villefranche sur Mer
+https://www.researchgate.net/institution/Natural_Product_Chemistry_Institute : Natural Product Chemistry Institute
+https://www.researchgate.net/institution/Laboratoire_de_Mecanique_et_dAcoustique : Laboratoire de Mécanique et d’Acoustique
+https://www.researchgate.net/institution/Institut_Mediterraneen_de_Biodiversite_et_dEcologie_Marine_et_Continentale : Institut Méditerranéen de Biodiversité et d'Ecolog...
+https://www.researchgate.net/institution/Transgene : Transgene
+https://www.researchgate.net/institution/Ecole_Nationale_dIngenieur_de_Tarbes : Ecole Nationale d'Ingénieur de Tarbes
+https://www.researchgate.net/institution/EMLYON_Business_School : EMLYON Business School
+https://www.researchgate.net/institution/Computer_Sciences_Laboratory_for_Mechanics_and_Engineering_Sciences : Computer Sciences Laboratory for Mechanics and Eng...
+https://www.researchgate.net/institution/CHNO_des_Quinze-Vingts : CHNO des Quinze-Vingts
+https://www.researchgate.net/institution/Institut_Pasteur_de_Lille : Institut Pasteur de Lille
+https://www.researchgate.net/institution/Grenoble_Ecole_de_Management : Grenoble École de Management
+https://www.researchgate.net/institution/Genoscope-Centre_National_de_Sequencage : Genoscope - Centre National de Séquençage
+https://www.researchgate.net/institution/ESCP_Europe : ESCP Europe
+https://www.researchgate.net/institution/CHU_de_Lyon-Groupement_Hospitalier_Edouard_Herriot : CHU de Lyon - Groupement Hospitalier Edouard Herri...
+https://www.researchgate.net/institution/Hopital_de_Poissy_Saint_Germain_en_Laye : Hôpital de Poissy Saint Germain en Laye
+https://www.researchgate.net/institution/Institut_de_Biologie_de_Lille : Institut de Biologie de Lille
+https://www.researchgate.net/institution/Collecte_Localisation_Satellites : Collecte Localisation Satellites
+https://www.researchgate.net/institution/Ecole_Nationale_Superieure_de_Chimie_de_Rennes : Ecole Nationale Supérieure de Chimie de Rennes
+https://www.researchgate.net/institution/Andra : Andra
+https://www.researchgate.net/institution/Clinique_Pasteur_Toulouse : Clinique Pasteur, Toulouse
+https://www.researchgate.net/institution/Institut_de_Genetique_Humaine : Institut de Génétique Humaine
+https://www.researchgate.net/institution/Schneider_Electric : Schneider Electric
+https://www.researchgate.net/institution/Institute_for_the_Biology_and_Chemistry_of_Proteins2 : Institute for the Biology and Chemistry of Protein...
+https://www.researchgate.net/institution/Arkema : Arkema
+https://www.researchgate.net/institution/Lille_Catholic_University : Lille Catholic University
+https://www.researchgate.net/institution/Hopital_Antoine-Beclere_Hopitaux_universitaires_Paris-Sud : Hôpital Antoine-Béclère –  Hôpitaux universitaires...
+https://www.researchgate.net/institution/CORIA : CORIA
+https://www.researchgate.net/institution/Laboratoire_de_Chimie_de_Coordination : Laboratoire de Chimie de Coordination.
+https://www.researchgate.net/institution/HEC_Paris : HEC Paris
+https://www.researchgate.net/institution/Danone : Danone
+https://www.researchgate.net/institution/Institut_Curie-Hopital_Rene_Huguenin2 : Institut Curie - Hôpital René Huguenin
+https://www.researchgate.net/institution/Institut_Polytechnique_LaSalle_Beauvais : Institut Polytechnique LaSalle Beauvais
+https://www.researchgate.net/institution/Institut_de_Genomique_Fonctionnelle : Institut de Génomique Fonctionnelle,
+https://www.researchgate.net/institution/Meteo_France : Meteo France
+https://www.researchgate.net/institution/Laboratoire_dInformatique_de_Robotique_et_de_Microelectronique_de_Montpellier_LIRMM : Laboratoire d'Informatique, de Robotique et de Mic...
+https://www.researchgate.net/institution/Dassault_Systemes : Dassault Systemes
+https://www.researchgate.net/institution/ENSTA_Bretagne : ENSTA Bretagne
+https://www.researchgate.net/institution/Hopital_Paul-Brousse_Hopitaux_universitaires_Paris-Sud : Hôpital Paul-Brousse – Hôpitaux universitaires Par...
+https://www.researchgate.net/institution/Institut_Fresnel : Institut Fresnel
+https://www.researchgate.net/institution/Hopital_Jean-Verdier_Hopitaux_Universitaires_Paris-Seine-Saint-Denis : Hôpital Jean-Verdier –  Hôpitaux Universitaires Pa...
+https://www.researchgate.net/institution/Veolia_Environment : Veolia Environment
+https://www.researchgate.net/institution/Chimie_ParisTech : Chimie ParisTech
+https://www.researchgate.net/institution/Institut_national_superieur_des_sciences_agronomiques_de_lalimentation_et_de_lenvironnement : Institut national supérieur des sciences agronomiq...
+https://www.researchgate.net/institution/Ecole_des_Mines_de_Nantes : École des Mines de Nantes
+https://www.researchgate.net/institution/Institut_de_Recherche_en_Informatique_de_Toulouse : Institut de Recherche en Informatique de Toulouse
+https://www.researchgate.net/institution/Institute_of_Microbiology_of_the_Mediterranean : Institute of Microbiology of the Mediterranean
+https://www.researchgate.net/institution/Centre_Jean_Perrin : Centre Jean Perrin
+https://www.researchgate.net/institution/Institut_de_Genetique_Moleculaire_de_Montpellier : Institut de Génétique Moléculaire de Montpellier
+https://www.researchgate.net/institution/VetAgro_Sup : VetAgro Sup
+https://www.researchgate.net/institution/Centre_Hospitalier_Intercommunal_Creteil : Centre Hospitalier Intercommunal Creteil
+https://www.researchgate.net/institution/Office_National_de_la_Chasse_et_de_la_Faune_Sauvage : Office National de la Chasse  et de la Faune Sauva...
+https://www.researchgate.net/institution/Ecole_Centrale_de_Lille2 : École Centrale de Lille
+https://www.researchgate.net/institution/Centre_dElaboration_de_Materiaux_et_dEtudes_Structurales_CERMES-CNRS : Centre d'Élaboration de Matériaux et d'Etudes Stru...
+https://www.researchgate.net/institution/Institut_Pluridisciplinaire_Hubert_Curien : Institut Pluridisciplinaire Hubert Curien
+https://www.researchgate.net/institution/Institut_des_Materiaux_Jean_Rouxel : Institut des Materiaux Jean Rouxel
+https://www.researchgate.net/institution/Centre_Chirurgical_Marie_Lannelongue : Centre Chirurgical Marie Lannelongue
+https://www.researchgate.net/institution/Universite_Pierre_Mendes_France-Grenoble_2 : Université Pierre Mendès France - Grenoble 2
+https://www.researchgate.net/institution/IRISA-Institut_de_Recherche_en_Informatique_et_Systemes_Aleatoires : IRISA - Institut de Recherche en Informatique et S...
+https://www.researchgate.net/institution/Institut_du_Cancer_de_Montpellier_Val_dAurelle : Institut du Cancer de Montpellier Val d'Aurelle
+https://www.researchgate.net/institution/Ecole_nationale_superieure_de_chimie_de_Paris : École nationale supérieure de chimie de Paris
+https://www.researchgate.net/institution/Laboratoire_de_Photonique_et_de_Nanostructures : Laboratoire de Photonique et de Nanostructures
+https://www.researchgate.net/institution/Ecole_des_Mines_de_Douai : Ecole des Mines de Douai
+https://www.researchgate.net/institution/Ecole_Superieure_dElectricite : École Supérieure d'Electricité

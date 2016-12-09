@@ -105,6 +105,6 @@ class QuotesSpider(scrapy.Spider):
 
     def download_publication_page(self, response):
         print "we are in download_publication_page"
-        with open('www.researchgate.net/profile/' + response.url.split('/')[-2] + '/publications' , "w") as myfile:
+        with open('www.researchgate.net/profile/' + response.url.split('/')[-2] + '_Publications' , "w") as myfile:
             myfile.write(response.body)
 
