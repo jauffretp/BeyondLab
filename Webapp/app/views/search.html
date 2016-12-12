@@ -42,7 +42,7 @@
 		<h6> {{researcher._source.location}}</h6>
 
 		<h4> 
-			<div ng-repeat="tag in researcher._source.tags track by $index" class="badge badge-primary">
+			<div ng-repeat="tag in researcher._source.tags track by $index" class="badge badge-primary" ng-click='search.searchTag(tag)' style="cursor:pointer">
 				{{tag}}
 			</div>
         </h4>
