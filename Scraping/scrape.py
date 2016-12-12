@@ -74,12 +74,16 @@ for name in data_research:
 	tags = [tag.encode('utf-8') for tag in tags]
 	link = researcherObject[linkKey].encode('utf-8')
 
+	institution = "Unversite Paris Dauphine".encode('utf-8')
+	institution_url = "http://www.dauphine.fr/fr/index.html".encode('utf-8')
+	location = "Paris, France".encode('utf-8')
+
 	print name
 	print link
 	print tags
 
 	
-	researcher = Researcher(name=name, tags=tags, link=link)
+	researcher = Researcher(name=name, tags=tags, link=link, location = location, institution = institution, institution_url=institution_url)
 	researcher.save()
 
 

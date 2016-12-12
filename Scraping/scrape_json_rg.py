@@ -9,11 +9,16 @@ connections.create_connection(hosts=['localhost'])
 Researcher.init()
 
 path = os.path.realpath('../ScrapeResearchGate/scrapy_RG')
-path = path + "/members_url_instit_loc_exp.json.try1"
+#path = path + "/members_url_instit_loc_exp.json.try1"
 
+path = path + "/members_url_instit_url_loc_exp.json"
 nameKey = "member"
 linkKey = "member_url"
 tagsKey = "expertise"
+
+locationKey = "location"
+institutionKey = "institution"
+institutionUrlKey = "institution_url"
 
 with open(path, 'r') as file:
 	    
@@ -21,12 +26,21 @@ with open(path, 'r') as file:
     #print content
     JsonObjects = json.loads(content)
 
-
+    count = 0
     for JsonObject in JsonObjects:
+        count += 1
+        if count % 100 == 0:
+            print "{} researchers loaded into ES".format(count)
     	name =  JsonObject[nameKey].encode('utf-8')
     	link =  JsonObject[linkKey].encode('utf-8')
     	tags =  JsonObject[tagsKey]
 
     	tags = [tag.encode('utf-8') for tag in tags]
-        researcher = Researcher(name=name, tags=tags, link=link)
+
+        location =  JsonObject[locationKey].encode('utf-8')
+        institution =  JsonObject[institutionKey].encode('utf-8')
+        institution_url =  JsonObject[institutionUrlKey].encode('utf-8')
+
+
+        researcher = Researcher(name=name, tags=tags, link=link, location = location, institution=institution, institution_url=institution_url)
         researcher.save()
