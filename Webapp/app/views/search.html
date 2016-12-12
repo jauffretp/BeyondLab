@@ -13,7 +13,7 @@
 
 <br \>
 <div class="row" role="alert" ng-show="!search.noResults && search.numberOfResults !== -1 ">
-  	<h5>{{search.numberOfResults}} researcher found for this query</h5>
+  	<h5>{{search.numberOfResults}} researchers found for this query</h5>
 </div>
 
 
@@ -38,7 +38,8 @@
 	<div class="col-xs-12" ng-repeat="researcher in search.searchResults">
 
 		<h4> <a href="{{researcher._source.link}}" target="_blank">{{researcher._source.name}}</a> </h4>
-
+		<h5> <a href="{{researcher._source.institution_url}}" target="_blank">{{researcher._source.institution}}</a> </h5>
+		<h6> {{researcher._source.location}}</h6>
 
 		<h4> 
 			<div ng-repeat="tag in researcher._source.tags track by $index" class="badge badge-primary">
