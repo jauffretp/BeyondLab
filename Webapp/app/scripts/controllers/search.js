@@ -37,7 +37,7 @@ angular.module('webappApp')
 
     _this.search = function(query){
 
-    	_this.offset = _this.resultsPerQuery;
+    	//_this.offset = _this.resultsPerQuery;
 
 
     	ElasticSearch.search({
@@ -46,11 +46,11 @@ angular.module('webappApp')
 		  size:_this.resultsPerQuery
 		}).then(function (body) {
 		  _this.searchResults = body.hits.hits;
-		  //_this.numberOfResults = body.hits.total;
 
 		  //des petites incoherences entre le nombre total de hits et un tableau vide parfois
-		  _this.numberOfResults =body.hits.hits.length
+		  _this.numberOfResults = body.hits.total;
 
+		  
 		  if(_this.numberOfResults >0){
 		  	    _this.noResults = false;
 		  }
@@ -97,7 +97,7 @@ angular.module('webappApp')
     	//_this.query = 'tags:"' + tag + '"'
 
     	//chercher en full query 
-    	_this.query = tag.trim()
+    	_this.query = tag.trim();
     	_this.search(_this.query);
     };
   });
